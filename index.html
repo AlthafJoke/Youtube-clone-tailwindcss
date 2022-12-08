@@ -9,10 +9,10 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Youtube</title>
 </head>
-<body class="bg-gray-100 font-Roboto">
-    <header class="bg-white divide-y">
+<body class="bg-gray-100 font-Roboto antialiased">
+    <header class="bg-white divide-y ml-20 border-b">
         <div class="flex justify-between items-center mx-4">
-            <div class="">
+            <div class="-ml-3">
                 
                 <img src="./images/YouTube-Logo.wine.svg" alt="" class="w-28">
             </div>
@@ -48,6 +48,25 @@
         </div>
 
     </header>
+    <aside class="fixed w-20 top-0 h-screen bg-white flex items-center flex-col text-gray-700">
+        <button class=""><i class="material-icons mt-6">menu</i></button>
+        <div class="mt-6 w-full">
+            <button class="flex items-center justify-center flex-col hover:bg-gray-100 w-full text-red-600 py-4">
+                <i class="material-icons small">home</i>
+                <span class="text-sm">Home</span>
+            </button>
+            <button class="flex items-center justify-center flex-col hover:bg-gray-100 w-full py-4">
+                <i class="material-icons small">local_fire_department</i>
+                <span class="text-sm">Trending</span>
+            </button><button class="flex items-center justify-center flex-col hover:bg-gray-100 w-full py-4">
+                <i class="material-icons small">subscriptions</i>
+                <span class="text-sm">Subscriptions</span>
+            </button><button class="flex items-center justify-center flex-col hover:bg-gray-100 w-full py-4">
+                <i class="material-icons small">video_library</i>
+                <span class="text-sm">Library</span>
+            </button>
+        </div>
+    </aside>
     
 </body>
 </html>
