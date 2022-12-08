@@ -5,10 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Youtube</title>
 </head>
-<body>
-    <h1>hello world</h1>
+<body class="bg-gray-100">
+    <header class="bg-white ">
+        <div class="flex justify-between items-center mx-4">
+            <div class="">
+                
+                <img src="./images/YouTube-Logo.wine.svg" alt="" class="w-28">
+            </div>
+            <div class="flex justify-center items-center flex-grow">
+                <input type="text" class="border border-gray-400 h-8 px-1 py-2 focus:outline-none focus:border-blue-600 w-3/5" placeholder="search">
+                <button class="bg-gray-200 flex items-center justify-center h-8 w-16 border border-gray-400 border-l-0 hover:bg-gray-300">
+                    <i class="material-icons">search</i>
+                </button>
+            </div>
+            <div class="flex justify-center items-center space-x-4">
+                <button class="flex justify-center items-center">
+                    <i class="material-icons">video_call</i>
+                </button>
+                <button class="flex justify-center items-center">
+                    <i class="material-icons">apps</i>
+                </button> 
+                <button class="flex justify-center items-center">
+                    <i class="material-icons">notifications</i>
+                </button> 
+                <button class="flex justify-center items-center">
+                    <div class="rounded-full h-8 w-8 bg-blue-700"></div>
+                </button>
+            </div>
+            
+        </div>
+    </header>
     
 </body>
 </html>
